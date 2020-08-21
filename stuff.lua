@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------
 ------------------------------------------------------------------------
--- if-else Beispiele
+-- if-else examples
 
 function mymax(a, b)
     if a<b then return b else return a end
@@ -31,7 +31,7 @@ end
 
 ------------------------------------------------------------------------
 ------------------------------------------------------------------------
--- error handling Beispiele (Falls wir dafür Zeit haben...)
+-- error handling examples
 
 function add(a,b)
     assert(type(a) == "number", "a is not a number")
